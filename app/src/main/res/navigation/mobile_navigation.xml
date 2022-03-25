@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_upcoming_movies">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.tentwentytest.movieapp.presentation.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_upcoming_movies"
+        android:name="com.tentwentytest.movieapp.presentation.movie.UpcomingMoviesFragment"
+        android:label="@string/title_watch"
+        tools:layout="@layout/fragment_upcoming_movies" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.tentwentytest.movieapp.presentation.ui.notifications.MediaLibraryFragment"
+        android:label="@string/title_media"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.tentwentytest.movieapp.presentation.ui.more.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>

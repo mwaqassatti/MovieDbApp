@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieDbApp</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_watch">Watch</string>
+    <string name="title_media">Media Library</string>
+    <string name="title_more">More</string>
+
+    <string name="no_movie_available">No Upcoming movies available</string>
+    <string name="watch_in_teaters">Watch In Theaters %1$s</string>
+
+    <string name="get_tickets">Get Tickets</string>
+    <string name="watch_trailer">Watch Trailer</string>
+</resources>
